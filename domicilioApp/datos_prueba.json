@@ -1,0 +1,35 @@
+[
+  {
+    "model": "asignacion_vehiculos.vehicle",
+    "pk": 1,
+    "fields": {
+      "registration_plate": "ABC123",
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": "2020-01-01",
+      "active": true,
+      "created_at": "2024-05-02T00:00:00Z"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.driver",
+    "pk": 1,
+    "fields": {
+      "rut": "123456789",
+      "name": "Juan",
+      "last_name": "Perez",
+      "active": true,
+      "created_at": "2022-05-01T00:00:00Z",
+      "vehicle": "ABC123"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.accountingregistry",
+    "pk": 1,
+    "fields": {
+      "date_of_purchase": "2022-05-01",
+      "price": 20000.0,
+      "vehicle": "ABC123"
+    }
+  }
+]

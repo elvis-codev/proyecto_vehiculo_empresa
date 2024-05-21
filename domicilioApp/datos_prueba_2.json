@@ -1,0 +1,168 @@
+[
+  {
+    "model": "asignacion_vehiculos.vehicle",
+    "pk": 1,
+    "fields": {
+      "registration_plate": "ABC123",
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": "2020-01-01",
+      "active": true,
+      "created_at": "2024-05-02T00:00:00Z"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.driver",
+    "pk": 1,
+    "fields": {
+      "rut": "123456789",
+      "name": "Juan",
+      "last_name": "Perez",
+      "active": true,
+      "created_at": "2022-05-01T00:00:00Z",
+      "vehicle": "ABC123"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.accountingregistry",
+    "pk": 1,
+    "fields": {
+      "date_of_purchase": "2022-05-01",
+      "price": 20000.0,
+      "vehicle": "ABC123"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.vehicle",
+    "pk": 2,
+    "fields": {
+      "registration_plate": "XYZ456",
+      "brand": "Ford",
+      "model": "Focus",
+      "year": "2021-01-01",
+      "active": true,
+      "created_at": "2024-05-02T00:00:00Z"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.driver",
+    "pk": 2,
+    "fields": {
+      "rut": "987654321",
+      "name": "María",
+      "last_name": "González",
+      "active": true,
+      "created_at": "2022-05-01T00:00:00Z",
+      "vehicle": "XYZ456"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.accountingregistry",
+    "pk": 2,
+    "fields": {
+      "date_of_purchase": "2022-05-01",
+      "price": 20000.0,
+      "vehicle": "XYZ456"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.vehicle",
+    "pk": 3,
+    "fields": {
+      "registration_plate": "DEF789",
+      "brand": "Honda",
+      "model": "Civic",
+      "year": "2019-01-01",
+      "active": true,
+      "created_at": "2024-05-02T00:00:00Z"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.driver",
+    "pk": 3,
+    "fields": {
+      "rut": "654987321",
+      "name": "Carlos",
+      "last_name": "Martínez",
+      "active": true,
+      "created_at": "2022-05-01T00:00:00Z",
+      "vehicle": "DEF789"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.accountingregistry",
+    "pk": 3,
+    "fields": {
+      "date_of_purchase": "2022-05-01",
+      "price": 25000.0,
+      "vehicle": "DEF789"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.vehicle",
+    "pk": 4,
+    "fields": {
+      "registration_plate": "GHI123",
+      "brand": "Chevrolet",
+      "model": "Cruze",
+      "year": "2020-01-01",
+      "active": true,
+      "created_at": "2024-05-02T00:00:00Z"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.driver",
+    "pk": 4,
+    "fields": {
+      "rut": "321654987",
+      "name": "Ana",
+      "last_name": "López",
+      "active": true,
+      "created_at": "2022-05-01T00:00:00Z",
+      "vehicle": "GHI123"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.accountingregistry",
+    "pk": 4,
+    "fields": {
+      "date_of_purchase": "2022-05-01",
+      "price": 22000.0,
+      "vehicle": "GHI123"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.vehicle",
+    "pk": 5,
+    "fields": {
+      "registration_plate": "JKL456",
+      "brand": "Nissan",
+      "model": "Sentra",
+      "year": "2018-01-01",
+      "active": true,
+      "created_at": "2024-05-02T00:00:00Z"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.driver",
+    "pk": 5,
+    "fields": {
+      "rut": "456321789",
+      "name": "Luis",
+      "last_name": "Rodríguez",
+      "active": true,
+      "created_at": "2022-05-01T00:00:00Z",
+      "vehicle": "JKL456"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.accountingregistry",
+    "pk": 5,
+    "fields": {
+      "date_of_purchase": "2022-05-01",
+      "price": 18000.0,
+      "vehicle": "JKL456"
+    }
+  }
+]
+
